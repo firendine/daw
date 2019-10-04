@@ -1,0 +1,22 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "onchange": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Hola\"",
+    "pepe": "echo Hola Pepe",
+	"sass": "bash scripts/sass.sh",
+	"deploy": "bash scripts/deploy.sh"
+  },
+  "author": "Silvia",
+  "license": "ISC"
+}

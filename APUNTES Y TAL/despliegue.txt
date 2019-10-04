@@ -1,0 +1,12 @@
+Microservicios
+
+Si cae un microservicio, la aplicación no cae entera.
+Tener aplicaciones con microservicios, evita que caiga la aplicación entera. Solo caerá el microservicio en sí.
+
+
+
+npm -> node package manager
+
+vertx
+
+jakarta == java EE
