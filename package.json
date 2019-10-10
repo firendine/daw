@@ -14,8 +14,8 @@
   "scripts": {
     "test": "echo \"Hola\"",
     "pepe": "echo Hola Pepe",
-	"sass": "bash scripts/sass.sh",
-	"deploy": "bash scripts/deploy.sh"
+    "sass": "bash scripts/sass.sh",
+    "deploy": "bash scripts/deploy.sh"
   },
   "author": "Silvia",
   "license": "ISC"
