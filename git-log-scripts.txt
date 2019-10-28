@@ -1,0 +1,35 @@
+git log:
+
+	-feat
+	-fix
+	-docs
+	-style
+	-refactor
+	-test
+	-chore
+
+
+feat (#3): tatatata
+
+___________________________
+#!/bin/bash
+
+
+
+#!/bin/bash
+
+echo "<table border='1'>"
+
+git --no-pager log --pretty=tformat:"%s" | grep "^feat(" | sed "s/^feat(//g" | sed "s/):/:/g" | sort | uniq | while read line
+do
+	echo "<tr><td>"
+	echo $line
+	echo "</td></tr>"
+done
+echo "</table>"
+
+# ./script.sh > script.html
+
+__________________________________
+el sort es para ordenar alfabeticamente
+el uniq es para que no se repitan
