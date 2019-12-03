@@ -1,0 +1,11 @@
+----- Como publicar páginas estaticas en github -----
+
+creamos un nuevo repositorio
+
+vamos a settings de ese repositorio y vamos a github pages
+
+ponemos master branch
+
+y subimos un index.html o un css o un jsvascript, todo menos la parte de servidor
+
+

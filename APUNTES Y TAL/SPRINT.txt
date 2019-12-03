@@ -1,0 +1,12 @@
+htdocs  /site/
+	/api/
+
+
+
+Para presentar el 19, desplegar en un pc.
+Una acarpeta que se llame api, donde irá el contenido de la carpeta dist del contenido de php
+y en site(se puede cambiar el nombre), 
+
+habrán dos build.sh (el que genera /dist), y dos dist.
+
+

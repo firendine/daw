@@ -1,0 +1,30 @@
+docker container start nombreMaquinaVirtual
+
+
+docker container ls -a //lista los containers locales y no locales
+
+
+
+docker container run ____<opciones>_____ nombreImagen
+
+-d // Run container in background and print container ID
+--name "silvia_nombreImagen" //no es obligatorio, pero si necesario
+-p 81:80 //el 81 es un puerto por el que tu entras, el 80 el del servidor
+
+
+
+docker conainer exec -it nombreContenedor /bin/bash
+
+
+-it//es para decir que queremos ejecutarlo desde su terminal
+
+
+
+mirar: de docker a kubernetes
+
+
+kubernetes: es una capa que está por encima de docker que te ahorra fallos
+
+
+
+
